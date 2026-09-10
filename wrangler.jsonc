@@ -1,0 +1,17 @@
+{
+  "$schema": "https://unpkg.com/wrangler/config-schema.json",
+  "name": "cute-credentials",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-10",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cute-credentials",
+      "database_id": "91ab6813-3b2e-45dc-b727-ade924a056be"
+    }
+  ],
+  "assets": {
+    "directory": "./public",
+    "run_worker_first": ["/api/*"]
+  }
+}
